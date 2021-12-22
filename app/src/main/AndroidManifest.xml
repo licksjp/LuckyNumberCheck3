@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Ver0.0.3:20201210
+    Ver0.0.7:20210105-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="kouzou.number.check.light">
+
+
+    <!--android:label:Tool barのタイトル -->
+        <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:usesCleartextTraffic="true"
+            android:label="@string/app_Title1"
+            android:roundIcon="@mipmap/ic_launcher"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme"
+            >
+            <meta-data
+                android:name="com.google.android.gms.ads.APPLICATION_ID"
+                android:value="ca-app-pub-7821909322657049~3915494434"/>
+            <activity android:name=".MainActivity"
+                android:screenOrientation="portrait"
+                tools:ignore="MissingClass">
+
+                <intent-filter>
+                    <action android:name="android.intent.action.MAIN" />
+                    <category android:name="android.intent.category.LAUNCHER" />
+                </intent-filter>
+
+
+            </activity>
+            <activity
+                android:name=".SubActivity">
+            </activity>
+        </application>
+        <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    </manifest>

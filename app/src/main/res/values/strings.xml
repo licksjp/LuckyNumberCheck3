@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--バージョン表示-->
+    <!-- アプリ名:ラッキーナンバーチェッカー3 2021.04.21 Voise 追加 -->
+    <!--Ver:1.8.0 作成デート:Date.2021.04.21 リリース日(完成日):2021年xx月xx日-->
+    <!--Ver 1.9.2 公開　2021.09.29 -->
+    <!--2021.09.15 Helpに取扱説明を追加する-->
+    <string name="message">Version:1.9.3\nDate:2021.11.28\nAuthor:<b>licksjp</b>\n(C)<b>licksjp</b> All rights reserved</string>
+    <!-- Voice Message -->
+    <string name="Start_Message_Voice">準備ができました、入力ボタンをおしてください</string>
+         <!--1-1 Clear Screen And 番号入力 -->
+    <string name = "Input_Number_Screen_Voice">番号から吉凶を求めます\n番号を入力してください\n(範囲:0～4900)\n\n\n\n\n\n\n番号(0～4900):%1$d</string>
+    <string name = "Input_Number_Screen2_Voice">番号から吉凶を求めます\n番号を入力してください\n(範囲:0～%1$d)\n\n\n\n\n\n\n番号(0～%2$d):%3$d</string>
+    <!--起動時のスタートメッセージ 音声メッセージ -->
+    <string name="Start_Message">準備ができました、入力ボタンを押してください</string>
+    <!-- 入力ボタンを押してくださいメッセージ 音声メッセージ-->
+    <string name="Push_Input_Button_Message">入力ボタンを押してください</string>
+    <!--Menu1 爻象番号選択画面　メッセージ -->
+    <string name = "Select_Kouzou_Check_Message">番号から吉凶を求めます、0から999までの好きな数字を入れて、入力ボタンをおしてください</string>
+    <!--メイン画面 音声メッセージ -->
+    <string name="Main_Screen_Select_Message_Voice">メインがめんです。1から3のどれかのせんたくしのボタンを、おしてにゅうりょくボタンをおしてください</string>
+    <!--結果表示　メッセージ Result_Kikkyo_Screen_Message -->
+    <string name="Result_Kikkyo_Screen_Message_Voice">%1$dの吉凶は、%2$sです。クリアボタンをおしてください</string>
+
+    <!--トップ画面メッセージ-->
+    <string name="Input_Push_Message_Voice">入力ボタンをおしてください</string>
+    <!--1画の文字-->
+    <!-- 0.トップ画面 入力ボタンメッセージ-->
+    <string name="TopScreen">入力ボタンを押してください\n\n\n\n\n\n\n\n\n</string>
+    <!-- 0.トップ画面2 クリアボタンメッセージ-->
+    <string name="PushClearButtonMessage">クリアボタンを押してください\n\n\n\n\n\n\n\n\n</string>
+    <!--1.メイン画面-->
+    <string name="Main_Screen_NoSelect">番号を選んでください\n1.番号の爻象を見る\n2.設定\n3.ヘルプ\n\n\n\n\n\n番号:%d.無選択</string>
+    <!--1.メイン画面 選択肢1-->
+    <string name="Main_Screen_Select1">番号を選んでください\n1.番号の爻象を見る\n2.設定\n3.ヘルプ\n\n\n\n\n\n番号:%d.番号の爻象を見る</string>
+    <!--1.メイン画面 選択肢2-->
+    <string name="Main_Screen_Select2">番号を選んでください\n1.番号の爻象を見る\n2.設定\n3.ヘルプ\n\n\n\n\n\n番号:%d.設定</string>
+    <!--1.メイン画面 選択肢3-->
+    <string name="Main_Screen_Select3">番号を選んでください\n1.番号の爻象を見る\n2.設定\n3.ヘルプ\n\n\n\n\n\n番号:%d.ヘルプ</string>
+    <!--1.メイン画面1 選択肢1-0 選択肢無選択-->
+    <string name="Main_Screen1_NoSelect">番号を選んでください\n1.名前の吉凶\n2.男女の相性占い\n3.メイン画面\n\n\n\n\n番号:%d.無選択</string>
+    <!--1.メイン画面1 選択肢1-1 選択肢1-->
+    <string name = "Main_Screen1_Select1">番号を選んでください\n1.名前の吉凶\n2.男女の相性占い\n3.メイン画面\n\n\n\n\n番号:%d.名前の吉凶</string>
+    <!--1.メイン画面1 選択肢1 選択肢2-->
+    <string name = "Main_Screen1_Select2">番号を選んでください\n1.名前の吉凶\n2.男女の相性占い\n3.メイン画面\n\n\n\n\n番号:%d.男女の相性占い</string>
+    <!--1.メイン画面1 姓名判断 選択肢3-->
+    <string name = "Main_Screen1_Select3">番号を選んでください\n1.名前の吉凶\n2.男女の相性占い\n3.メイン画面\n\n\n\n\n番号:%d.メイン画面</string>
+    <!--1-1 Clear Screen And 番号入力 -->
+    <string name = "Input_Number_Screen">番号から吉凶を求めます\n番号を入力してください\n(範囲:0～999)\n\n\n\n\n\n\n番号(0～999):%d</string>
+　　　<!--吉凶の結果表示 範囲内の時-->
+    <string name = "Result_Kikkyo_Screen">番号:%1$d\n吉凶:%2$s\n\n\n\n\n\nクリアボタン</string>
+    　<!--吉凶の結果表示 範囲外の時-->
+    <string name = "Result_Kikkyo_Screen_else">番号:%1$dはまだ吉凶は\n実装されていません。\n\n\n\n\n\nクリアボタンを押してください</string>
+    <!--2.設定-->
+    <!-- 2-1.バイブの設定 選択画面-->
+    <!-- 2-1.バイブの設定 選択画面　無選択-->
+    <string name = "Config_Vibration_Setting_NoSelect">設定\n1.バイブの設定\n\n\n\n\n\n\n番号:%1$d.無選択</string>
+    <!-- 2-1.バイブの設定 選択画面　選択肢１-->
+    <string name = "Config_Vibration_Setting_Select1">設定\n1.バイブの設定\n\n\n\n\n\n\n番号:%1$d.バイブの設定</string>
+    <!-- 2-1.バイブの設定 設定画面-->
+    <!-- 2-1.バイブの設定 設定画面 オンの状態で　オフにする 選択肢:無選択 -->
+    <string name = "Config_Vibration_Setting_Select1_ON_OFF_NoSelect">バイブの設定\n1.バイブをオフにする。\n2.バイブをオンのままにする。\n現在の設定:現在バイブはオンです。\n\n\n\n\n番号:%1$d.無選択</string>
+    <!-- 2-1.バイブの設定 設定画面 オンの状態で　オンにする 選択肢:1 -->
+    <string name="Config_Vibration_Setting_Select1_ON_OFF_Select1">バイブの設定\n1.バイブをオフにする。\n2.バイブをオンのままにする。\n現在の設定:現在バイブはオンです。\n\n\n\n\n番号:%1$d.バイブをオフにする</string>
+    <!-- 2-1.バイブの設定 設定画面 オンの状態で　オフにする 選択肢:無選択 -->
+    <string name = "Config_Vibration_Setting_Select1_OFF_ON_NoSelect">バイブの設定\n1.バイブをオンにする。\n2.バイブをオフのままにする。\n現在の設定:現在バイブはオフです。\n\n\n\n\n番号:%1$d.バイブをオンにする</string>
+    <!-- 2-1.バイブの設定 設定画面 オフの状態で　オンにする 選択肢:1 -->
+    <string name = "Config_Vibration_Setting_Select1_OFF_ON_Select1">バイブの設定\n1.バイブをオンにする。\n2.バイブをオフのままにする。\n現在の設定:現在バイブはオフです。\n\n\n\n\n番号:%1$d.バイブをオンにする</string>
+    <!-- 2-1.バイブの設定 設定画面 オフの状態で　オフにする 選択肢:2 -->
+    <string name = "Config_Vibration_Setting_Select1_OFF_OFF_Select2">バイブの設定\n1.バイブをオンにする。\n2.バイブをオフのままにする。\n現在の設定:現在バイブはオフです。\n\n\n\n\n番号:%1$d.バイブをオフのままにする。</string>
+    <!-- 2-1.バイブの設定 設定画面 オンの状態で　オンにする 選択肢:2 -->
+    <string name = "Config_Vibration_Setting_Select1_ON_ON_Select2">バイブの設定\n1.バイブをオフにする。\n2.バイブをオンのままにする。\n現在の設定:現在バイブはオンです。\n\n\n\n\n番号:%1$d.バイブをオンのままにする。</string>
+
+    <!--2-1. トーストメッセージ　-->
+    <string name="Stop_Vibration_Message">バイブを停止しました。</string>
+    <string name="Start_Vibration_Message">バイブを作動させました。</string>
+    <string name="KeepONVibration_Message">バイブは作動中です。</string>
+    <string name="KeepOFFVibration_Message">バイブは停止のままです。</string>
+    <!-- 2-1.バイブの設定 設定画面 -->
+    <!-- 2-1.バイブの設定 設定画面:オフの状態でオンにする 選択肢:2 -->
+    <string name = "Config_Vibration_Setting_Select1_OFF_ON">バイブの設定\n1.バイブをオンにする。\n2.バイブをオフのままにする。\n現在の設定:現在バイブはオフです。\n\n\n番号:%1$d.バイブをオフのままにする。\n\nクリア:バイブをオンのままにする。</string>
+    <!--1-3 Help -->
+    <string name="Help_Menu_Top_NoSelect">番号を選んでください\n1.バージョン\n2.参考文献\n3.取扱説明\n\n\n番号:%d.無選択</string>
+    <string name="Help_Menu_Top_Select1">番号を選んでください\n1.バージョン\n2.参考文献\n3.取扱説明\n\n\n番号:%d.バージョン</string>
+    <string name="Help_Menu_Top_Select2">番号を選んでください\n1.バージョン\n2.参考文献\n3.取扱説明\n\n\n番号:%d.参考文献</string>
+    <string name="Help_Menu_Top_Select3">番号を選んでください\n1.バージョン\n2.参考文献\n3.取扱説明\n\n\n番号:%d.取扱説明</string>
+<!-- Sample1 画面遷移 Ｍｅｓｓａｇｅ-->
+    <string name="Change_Screen">画面遷移...ok</string>
+    <string name="app_name">My Application</string>
+    <string name="app_Title1">ラッキーナンバーチェッカー３ Light</string>
+    <string name="app_Title2">ラッキーナンバーチェッカー３ Light</string>
+    <string name="app_Title3">ラッキーナンバーチェッカー３ Light</string>
+    <string name="Button_seven"><b>7</b></string>
+    <string name="Button_eight"><b>8</b></string>
+    <string name="Button_nine"><b>9</b></string>
+    <string name="Button_four"><b>4</b></string>
+    <string name="Button_five"><b>5</b></string>
+    <string name="Button_six"><b>6</b></string>
+    <string name="Button_one"><b>1</b></string>
+    <string name="Button_two"><b>2</b></string>
+    <string name="Button_three"><b>3</b></string>
+    <string name="Button_clear"><b>クリア</b></string>
+    <string name="Button_zero"><b>0</b></string>
+    <string name="Button_EXE"><b>入 力</b></string>
+    <string name="title">Version</string>
+     <string name="ok">OK</string>
+    <string name="nameMessage">あなたの名前を入れてください</string>
+    <string name="editname">名前(漢字で姓を入力):</string>
+    <string name="editname2">名前(漢字で名を入力):</string>
+    <string name="OKButton">鑑定</string>
+    <string name="ClearButton">クリア</string>
+    <string name="resultOkButton">トップに行く</string>
+    <string name="Version">Version</string>
+    <string name="Reference">Title:人生が好転する4けた数字開運術\nAuthor:金　河(キム ハ)\n出版社:扶桑社\nISBN978-4-594-07752-5\n定価:1300円+税\n</string>
+    <string name="Reference_Title">参考文献</string>
+    <string name="Document_Title">マニュアル</string>
+    <string name="create"></string>
+</resources>

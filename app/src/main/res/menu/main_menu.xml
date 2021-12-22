@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/create"
+        android:title="@string/Version" />
+    <item android:id="@+id/Reference"
+        android:title="@string/Reference_Title" />
+    <item android:id="@+id/Document"
+        android:title="@string/Document_Title" />
+</menu>

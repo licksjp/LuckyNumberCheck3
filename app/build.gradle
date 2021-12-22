@@ -1,0 +1,79 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+
+android {
+
+        buildFeatures {
+            viewBinding true
+        }
+    buildTypes {
+        release {
+            debuggable false
+        }
+        bundle {
+            language {
+                // Specifies that the app bundle should not support
+                // configuration APKs for language resources. These
+                // resources are instead packaged with each base and
+                // feature APK.
+                enableSplit = true
+            }
+
+        }
+    }
+    allprojects {
+        repositories {
+            google()
+        }
+    }
+    compileSdkVersion 30
+    defaultConfig {
+        applicationId "kouzou.number.check.light"
+        minSdkVersion 19
+        targetSdkVersion 30
+        //Ver0.0.3:2020.12.10
+        //Ver1.7.0:2021.01.21
+        //Ver1.8.0:2021.04.21
+        //Ver1.9.2:2021.09.29
+        //Ver1.9.3:2021.11.28
+        versionCode 12
+        versionName "1.9.3"
+        multiDexEnabled true
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    sourceSets {
+        main {
+            assets {
+                srcDirs 'src\\main\\assets'
+                srcDirs 'src\\res\\raw'
+                //assets.srcDirs = ['/res/raw']
+            }
+        }
+    }
+
+}
+
+dependencies {
+    //noinspection GradleCompatible
+    implementation 'com.android.support:appcompat-v7:25.1.0'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation"org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'androidx.appcompat:appcompat:1.3.1'
+    implementation 'androidx.core:core-ktx:1.6.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.0'
+    //AdMob 広告2020年12月12日
+    implementation 'com.google.android.gms:play-services-ads:20.2.0'
+    //implementation ViewTreeObserver.OnPreDrawListener
+    testImplementation 'junit:junit:4.13.1'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    implementation 'com.android.support:multidex:1.0.3'
+}
